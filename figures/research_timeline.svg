@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="190.57663mm"
+   height="92.019241mm"
+   viewBox="0 0 190.57663 92.019241"
+   version="1.1"
+   id="svg1"
+   inkscape:version="1.4.3 (0d15f75042, 2025-12-25)"
+   sodipodi:docname="research_timeline.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="1.7336508"
+     inkscape:cx="116.80553"
+     inkscape:cy="95.463285"
+     inkscape:window-width="1916"
+     inkscape:window-height="1021"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="ArrowWide"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       inkscape:stockid="Wide arrow"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       inkscape:isstock="true"
+       inkscape:collect="always"
+       preserveAspectRatio="xMidYMid">
+      <path
+         style="fill:none;stroke:context-stroke;stroke-width:1;stroke-linecap:butt"
+         d="M 3,-3 0,0 3,3"
+         transform="rotate(180,0.125,0)"
+         sodipodi:nodetypes="ccc"
+         id="path1" />
+    </marker>
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-6.155318,-57.383008)">
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;fill-rule:evenodd;stroke:none;stroke-width:0.529167;stroke-miterlimit:2"
+       x="24.587412"
+       y="62.871902"
+       id="text1"><tspan
+         sodipodi:role="line"
+         style="fill:#190f3c;stroke:none;stroke-width:0.529167"
+         x="24.587412"
+         y="62.871902"
+         id="tspan2">Familiarisation avec les thématiques de l'équipe</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;fill-rule:evenodd;stroke:none;stroke-width:0.529167;stroke-miterlimit:2"
+       x="24.795151"
+       y="74.363754"
+       id="text1-3"><tspan
+         sodipodi:role="line"
+         style="fill:#190f3c;stroke:none;stroke-width:0.529167"
+         x="24.795151"
+         y="74.363754"
+         id="tspan3">Mise en place de projets détaillés</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;fill-rule:evenodd;stroke:none;stroke-width:0.529167;stroke-miterlimit:2"
+       x="24.587412"
+       y="90.390762"
+       id="text1-3-7"><tspan
+         sodipodi:role="line"
+         style="fill:#190f3c;stroke:none;stroke-width:0.529167"
+         x="24.587412"
+         y="90.390762"
+         id="tspan3-0">Développements analytiques et théoriques préliminaires</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#190f3c;fill-rule:evenodd;stroke:none;stroke-width:0.529167;stroke-miterlimit:2"
+       x="24.590511"
+       y="104.62901"
+       id="text1-3-7-6"><tspan
+         sodipodi:role="line"
+         style="fill:#190f3c;stroke:none;stroke-width:0.529167"
+         x="24.590511"
+         y="104.62901"
+         id="tspan3-0-2">Projet pour financement (ANR JCJC, thèse)</tspan></text>
+    <path
+       style="fill:none;fill-rule:evenodd;stroke:#190f3c;stroke-width:0.529167;stroke-miterlimit:2;marker-end:url(#ArrowWide)"
+       d="M 19.230044,57.383008 V 148.89578"
+       id="path4" />
+    <text
+       xml:space="preserve"
+       style="font-size:6.35px;line-height:1;font-family:'Century Gothic';-inkscape-font-specification:'Century Gothic';text-decoration-color:#000000;writing-mode:lr-tb;direction:ltr;fill:#3746ff;fill-rule:evenodd;stroke:none;stroke-width:0.529167;stroke-miterlimit:2"
+       x="5.2530475"
+       y="66.386414"
+       id="text4"><tspan
+         sodipodi:role="line"
+         id="tspan4"
+         style="fill:#3746ff;stroke:none;stroke-width:0.529167"
+         x="5.2530475"
+         y="66.386414">1A</tspan></text>
+    <circle
+       style="fill:#3746ff;fill-rule:evenodd;stroke:none;stroke-width:0.529167;stroke-miterlimit:2"
+       id="path5"
+       cx="19.230043"
+       cy="64.297127"
+       r="1" />
+  </g>
+</svg>
