@@ -23,6 +23,7 @@ title-slide-attributes:
     Je suis très content d'être ici pour vous présenter mon profil et mes projets plus en détails.
 callout-appearance: minimal
 callout-icon: false
+# scrollable: true
 --- 
 
 ## Parcours
@@ -274,55 +275,60 @@ Supports numériques de TP en Rupture
 - Participations à des jurys de stages/projets
 :::
 
+<!-- 
+
 ## Évolution des formations
 
 Illustrer les slides avec le TP (mousse) et TP MN ou Matlab Lorenz
 
 
 Mettre une slide à part pour illuster l'évolution des formations ???
+-->
 
 ## Intégration dans les formations
+[INSA Lyon, Département Génie Mécanique]{.muted}
 
-::::{.columns}
-:::{.column width=70%}
+:::{.absolute top="8%" right="0%"}
+![](figures/logo_insa_lyon.svg){width=280}
+:::
 
 #### {{< fa user-check >}} Adéquation au profil
 
-**Mécanique des milieux continus**
+| Thématiques                                   | Formation | Enseignement  | Recherche |
+|-----------------------------------------------|:---------:|:-------------:|:---------:|
+| Mécanique des solides déformables <br> Méthodes numériques appliquées à la mécanique <br> Calcul de structures par éléments finis | ✓ <br> ✓ <br> ✓ |✓ <br> ✓ <br> ✓ |✓ <br> ✓ <br> ✓ |
+| Projets                                       | ✓         | ✓             | ✓         |
+| [Conception]{.muted}                          | ✓         | -             | -         |
+| [Biomécanique appliquée à la santé]{.muted}   | -         | -             | -         |
 
-- Formation + Propagation d'ondes + MMC Solides Élastiques, Mécanique des Fluides
-
-**Méthodes numériques appliquées à la mécanique**
-
-- Formation, Enseignements : TD/TP Méthodes numériques, TP Numériques Mécanique de la rupture, TP Numériques Méca Flu, projet Matlab
-
-**Calcul de structures par éléments finis** en Cours/TD/TP
-
-**Elle pourra également s’investir dans les enseignements**
-
-- Conception
-  - Formation (de la STI2D au M2 FESup)
-- Biomécanique appliquée à la santé.
-  - Mise à niveau nécessaire (au travers de la recherche?)
-
-:::
-:::{.column width=30%}
-![](figures/logo_insa_lyon.svg){width=100%}
-:::
-::::
-
-#### {{< fa screwdriver-wrench >}} Compétences techniques
+: {tbl-colwidths="[60, 13, 14, 13]"}
 
 ::::{.columns}
 :::{.column}
-**Programmation** : BLABLABLA <br> 
-[$\rightarrow$ BLABLABLA <br>]{.muted}
+<br>
+
+#### {{< fa screwdriver-wrench >}} Compétences techniques
+Programmation
+<br>
+[Python, Matlab, C, Julia, etc.]{.muted .verysmaller}
+
+Calcul scientifique
+<br>
+[GMSH, FEniCSx, FreeFEM++, SageMath, etc.]{.muted .verysmaller}
+
 :::
 :::{.column}
-**Logiciels métiers** : Un peu de abaqus <br> 
+<br>
+<br>
+
+Logiciels métiers pour le calcul de structure
+<br>[Cast3m, MFront, (Abaqus)]{.muted .verysmaller}
+
+Conception Assistée par Ordinateur
+<br>
+[SolidWorks, CATIA]{.muted .verysmaller}
 :::
 ::::
-
 
 <!--
 #### {{< fa graduation-cap >}} Enseignements visés
@@ -343,8 +349,25 @@ Mettre une slide à part pour illuster l'évolution des formations ???
 -->
 
 :::{.notes}
-J'ai été formé à la conception et à la fabrication.
-Dire que j'ai envie d'enseigner ça car nécessaire de former des ingénieurs capables de proposer des solutions tenant compte des nombreux facteurs pratiques et sociétaux.
+
+Pour ce qui tourne autour de la MMC et des méthodes numériques, il ne me reste qu'à m'adapter aux approches pédagogiques employées dans le département.
+
+**Mécanique des solides déformables**
+
+- Formation + Propagation d'ondes + MMC Solides Élastiques, Mécanique des Fluides
+
+**Méthodes numériques appliquées à la mécanique**
+
+- Formation, Enseignements : TD/TP Méthodes numériques, TP Numériques Mécanique de la rupture, TP Numériques Méca Flu, projet Matlab
+
+**Calcul de structures par éléments finis** en Cours/TD/TP
+
+**Elle pourra également s’investir dans les enseignements**
+
+- Conception
+  - Formation (de la STI2D au M2 FESup)
+- Biomécanique appliquée à la santé.
+  - Mise à niveau nécessaire (au travers de la recherche?)
 
 PIAE : Projet instrumentation acquisition exploitation 
 
@@ -357,13 +380,6 @@ Projet ETE : Projet de l’enseignement thématique électif
 
 ## Implications pédagogiques
 
-#### Pédagogie par projet 
-
-C'est une manière d'enseigner dont j'ai beaucoup profité et dans laquelle j'ai bcp appris.
-
-Connaissances transvervales -> STI2D + L3 pluridisciplinaire + FESup
-
-Lien avec l'industrie, prêt à s'investir pleinement.
 
 <!--
 un investissement concret dans la définition et l’encadrement de projets individuels ou collectifs tels que,
@@ -375,33 +391,20 @@ académiques associés au département.
 
 #### Évolution des enseignements
 
-**Défis pédagogiques en MMC et Méthodes Numériques**
+**Défis pédagogiques en Mécanique des Solides Déformables et Méthodes Numériques** <br>
 
-::::{.columns}
-:::{.column}
-Notions abstraites <br>
-&emsp;[Ex : CAO, normes cotations, procédés, etc.]{.muted}
-:::
-:::{.column}
-Calculatoire <br>
-&emsp;[Ex : Considérer la fabrication dès la conception.]{.muted}
-:::
-::::
+Notions abstraites, cours en grand effectif [(peu d'interactions en cours)]{.muted}
 
-::::{.columns}
-:::{.column}
-**Approches envisagées** <br>
-Illustration interactifs <br>
-&emsp;[Animations / Ressources interactives.]{.muted} <br>
-&emsp;[Ex : Tenseur des contraintes.]{.muted}
-:::
-:::{.column}
-<br>
-Lien cours vs mise en pratique (MN) ??? <br>
-[&emsp; Mise en pratique rapide (TP, projet).]{.muted} <br>
-[&emsp; Proposition de ressources méthodologiques.]{.muted}
-:::
-::::
+**Contributions envisagées**
+
+  - Illustrer les notions abstraites [(*e.g.*, contraintes)]{.muted} et les mises en œuvre numériques [(méthode num $\rightarrow$ code)]{.muted}
+      <br> &emsp;
+      [Création de notebooks HTML interactifs (marimo)]{.muted}
+  - Mettre en évidence les liens entre structure réelle, modélisation et simulation numérique
+
+#### Pédagogie par projet 
+
+ Plus d'échanges, accompagnement personnalisé, sujets variés, etc. $\rightarrow$ Envie de m'investir dans ces activités
 
 #### Autres implications
 
@@ -418,6 +421,49 @@ Lien cours vs mise en pratique (MN) ??? <br>
 - À terme, responsabilités péda ou plateforme
 :::
 ::::
+
+:::{.notes}
+Pédagogie par projet:
+
+- C'est une manière d'enseigner dont j'ai beaucoup profité et via laquelle j'ai bcp appris.
+- Formation pluridisciplinaire scientifique + encadrement de projet en recherche
+:::
+
+<!--
+
+**Défis pédagogiques (MMC et Méthodes Numériques) **
+
+::::{.columns}
+:::{.column}
+Notions abstraites <br>
+&emsp;[Ex: contraintes, champs virtuels.]{.muted}
+:::
+:::{.column}
+Calculatoire <br>
+&emsp;[Ex : Calcul de structure.]{.muted}
+:::
+::::
+
+::::{.columns}
+:::{.column}
+**Approches envisagées** <br>
+Illustrations et ressources interactives
+<br> &emsp;
+[Physiques : Illustration de la déformation sur une éponge / mousse (grille)]{.muted}
+<br> &emsp;
+[Numériques : Marimo/Jupyter, manim.]{.muted}
+<br> &emsp;
+[TP numérique et expérimentaux complémentaires ?]{.muted}
+:::
+:::{.column}
+<br>
+Calcul symbolique ? <br>
+[&emsp; Mise en pratique rapide (TP, projet).]{.muted} <br>
+[&emsp; Proposition de ressources méthodologiques.]{.muted}
+:::
+::::
+
+-->
 
 
 ## Mise en situation pédagogique {.center}
@@ -453,8 +499,8 @@ Plan prévu:
 3. Qu'est-ce que dimensionner une structure treillis ?
     - Géométrie, Choix de matériaux, longueurs, sections, etc.
     - En fonction des sollications (poutre: traction/compression/flexion/etc, monotone/cyclique), des contraintes (cahier des charges)
-4. Example d'un problème de dimensionnement d'une structure treillis avec les enjeux sociétaux associés (cet example servira de fil rouge).
-    - Cette exemple pourra être revu dans le cours (comme example ou traiter en TD)
+4. Exemple d'un problème de dimensionnement d'une structure treillis avec les enjeux sociétaux associés (cet exemple servira de fil rouge).
+    - Cette exemple pourra être revu dans le cours (comme exemple ou traiter en TD)
 5. Comment est-ce qu'on les modélise ?
     - On pourrait faire du full 3D comme on a vu dans le cours
     - En pratique, on va pouvoir supposer que les barres sont des poutres, ce qui va ÉNORMÉMENT simplifier les calculs.
@@ -466,21 +512,91 @@ Autre approche :
 -->
 :::
 
-## Structures en treillis
-[Qu'est-ce qu'une structure treillis ?]{.muted}
+## Structures en treillis - Introduction
+
+::::{.columns}
+:::{.column width=70%}
 
 ::: {.callout-important title="Définition : Structure en treillis"}
-
-Bonjour
-
+Un treillis est une structure composée de **barres** (poutres rectilignes) assemblées par des **nœuds** (liaisons rotules).
+Ses liaisons avec l'extérieur sont des **appuis** (fixe ou simple).
 :::
 
-- Structure composé d'élements
-- Apparition avec la révolution industrielle
-- Illustration de vieille structures
-- Intérêts : légèreté, tenue mécanique, économie de matière, facilité de montage, pièces standards
+#### Autres noms
 
-## Où est-ce qu'on les trouve maintenant ?
+Système triangulé, système réticulé, système en treillis.
+
+#### {{< fa regular thumbs-up >}} Avantages
+
+Structure creuse
+<br> &emsp;
+[Utilisation optimisée de la matière (économe, légère)]{.muted}
+<br> &emsp;
+[Faible prise en vent ]{.muted}
+
+Mise en œuvre facilitée
+<br> &emsp;
+[Utilisation d'éléments standards (poutres profilées, goussets, etc.)]{.muted}
+<br> &emsp;
+[Pré-fabrication en usine puis assemblage sur site]{.muted}
+
+Distribution des efforts contrôlée
+<br> &emsp;
+[Réduction des concentrations de contrainte]{.muted}
+
+:::
+:::{.column width=30%}
+![Pont en treillis sur le *Iron Horse Regional Trail* en Californie <br> ([Source: Wikimedia](https://commons.wikimedia.org/wiki/File:RRTrussBridgeSideView.jpg))](figures/teaching_pont.jpg){fig-align=center width=100%}
+
+![Fuselage d'un avion Piper PA 18 ([Source: Wikimedia](https://commons.wikimedia.org/wiki/File:Fuselage_Piper_PA18.JPG))](figures/teaching_fuselage_Piper_PA18.jpg){fig-align=center width=100%}
+:::
+::::
+
+## Structures en treillis - Transport
+
+![Pont Dom-Luís à Porto ([Source: Wikimedia](https://commons.wikimedia.org/wiki/File:Ponte_D._Luis_-_Porto.JPG))](figures/teaching_ponte_dom_luis_porto.jpg){fig-align=center width=85%}
+
+<!--
+![Viaduc de Gabarit (Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Garabit_Viadukt_(15).jpg))](figures/teaching_viaduc_de_Gabarit.jpg){fig-align=center width=60%}
+-->
+
+<!--
+## Structures en treillis - À Lyon
+
+![Passerelle de la Paix (Source : [Vincent Laganier – Light ZOOM Lumière](https://www.lightzoomlumiere.fr/realisation/passerelle-de-paix-trait-de-lumiere-rhone/))](figures/teaching_passerelle_de_la_paix.jpg){fig-align=center height=14cm}
+
+-->
+
+## Structures en treillis - Bâtiment
+
+![Ferme de charpente triangulée (Source: [Yves Chesneau](https://www.chesneau-charpentier-macon-38.com/realisation-chantier.php?id=30-ferme-triangulee-assemblee-sur-l-epure-a-l-atelier))](figures/teaching_ferme_de_charpente_triangulee.jpg){fig-align=center height=14cm}
+
+## Structures en treillis - Énergie
+
+![Pylône électrique de type Chat du réseau de transport d'éléctricité en France (Source: [Wikimedia](https://commons.wikimedia.org/wiki/File:Pyl%C3%B4ne_%C3%A9lectrique_2.jpg))](figures/teaching_pylone_electrique.jpg){fig-align=center height=14cm}
+
+<!--
+![Éolienne avec base en treillis (Source: [innovent](https://innovent.fr/en/our-wind-power-innovations/))](figures/teaching_eolienne_treillis.jpg){fig-align=center height=14cm}
+
+
+Jacket de structures offshore
+
+## Structures en treillis - Méta-matériaux
+
+TODO?
+
+Méta-matériaux
+
+Tour fourvière
+
+Passerelle de la Paix
+
+## En pratique
+
+- Les structures en treillis sont généralement assemblées avec des goussets (supposé)
+- Les poutres sont généralement assemblées en formant des triangles pour assurer que les barres soient sollicitées en traction/compression.
+
+## Structures en treillis - Exemples
 
 - Ouvrage d'art (tours, points, bâtiments, ...)
 - Automobile (chassis/arceau) -> Formula Student -> Équipe INSA Lyon
@@ -488,20 +604,162 @@ Bonjour
 - Énergie : Pylônes 
 - Milieux architecturés (DEAP?)
 - Concert / Tentes
+- Roue de vélo (pré-contrainte : ![voir papier](https://people.duke.edu/~hpgavin/papers/HPGavin-Wheel-Paper.pdf))
+- Divertissement : Roaller coaster
 
-## Qu'est-ce que dimensionner une structure treillis ?
+![images](https://www.google.com/search?sca_esv=25c8406c9a4a338a&hl=en&sxsrf=ANbL-n6tKEWOsrAP9uXLtREt9pbxQ8Wrhw:1779571641686&udm=2&fbs=ADc_l-aN0CWEZBOHjofHoaMMDiKpaEWjvZ2Py1XXV8d8KvlI3lB6BRmAv9Tdx4SvL4ZREsvAtO7uvBzcA2nI7Y2smQuOcOD1BRIJlYEP9L184wHplTqWZE0aFweoAp7tatwqyisbVZc7wjCLaOSq6clJzBpFCCjXHMlMf0mvf-_0to0j5XwOyrglSCkHa1jaCFzw6oxozvCR&q=rollercoaster+structural+design&sa=X&ved=2ahUKEwihkLj8rNCUAxXaUkEAHd1YLHsQtKgLegQIFRAB&biw=1860&bih=981&dpr=1) ![Steel Vengeance](https://en.wikipedia.org/wiki/Steel_Vengeance), ça permet des structures ultra optimisées pour tenir les efforts, ![Millenium Force](https://www.sixflags.com/cedarpoint/attractions/millennium-force).
+-->
 
-- Choix de matériaux, longueurs, sections, etc.
-- En fonction des sollications (poutre: traction/compression/flexion/etc, monotone/cyclique), des contraintes (cahier des charges)
+## Structure en treillis - Objectifs
 
-## Example d'un problème de dimensionnement d'une structure treillis avec les enjeux sociétaux associés (cet example servira de fil rouge).
+::::{.columns}
+:::{.column width=72%}
 
-- Cette exemple pourra être revu dans le cours (comme example ou traiter en TD)
+#### Compétences visées
 
-## Comment est-ce qu'on les modélise ?
+À partir d'un cahier des charges (chargement, masse, matériaux),
 
-- On pourrait faire du full 3D comme on a vu dans le cours
-- En pratique, on va pouvoir supposer que les barres sont des poutres, ce qui va ÉNORMÉMENT simplifier les calculs.
+- dimensionner une structure en treillis <br>
+    &emsp; [Mise en équation du problème de statique]{.muted} <br>
+    &emsp; [Résolution du problème (méthodes des nœuds et des sections)]{.muted} <br>
+    &emsp; [Réalisation de choix de dimensionnement (géomtrie, matériau, etc.)]{.muted}
+
+::::::{.columns}
+:::{.column width=54%}
+#### Contenus mobilisés
+
+- Principe fondamental de la statique
+- Thèorie des poutres
+
+#### Illustration
+
+Cas particulier de structure en treillis
+<br> &emsp; $\rightarrow$ structures de tenségrité.
+
+Retour sur cet exemple plus tard !
+
+
+:::
+:::{.column width=46%}
+
+![Vue du dessous de la *Needle Tower* de Kenneth Snelson <br> (Source: [Smithonian magazine](https://www.smithsonianmag.com/smithsonian-institution/how-does-hirshhorn-60-foot-needle-tower-stay-upright-in-stiff-wind-180953391/))](figures/teaching_needle_tower_below.webp)
+:::
+::::::
+
+:::
+
+
+:::{.column width=28%}
+![*Needle Tower* de Kenneth Snelson <br> (Source: [Tensegrity Wiki](https://tensegritywiki.com/index.php?title=File:Needle_Tower_by_Snelson_photo_by_BAR_photography.jpg))](figures/teaching_needle_tower_side.jpg){width=100%}
+:::
+::::
+
+:::{.footer}
+Attention, dans les structures de tenségrité, il y a de la pré-contrainte dans les câbles.
+:::
+
+## Structures en treillis - Modélisation
+[Comment modéliser une structure en treillis ?]{.muted}
+
+#### {{< fa triangle-exclamation >}} Problème
+
+La modélisation 3D des solides déformables pour une structure en treillis est complexe.
+
+::::{.columns}
+:::{.column}
+#### {{< fa regular lightbulb >}} Simplification du problème
+**Hypothèses simplificatrices ...**
+
+Liaisons rotules parfaites (sans frottement) <br>
+Liaisons avec l'extérieur par appuis (simple/glissant)
+
+Efforts/Déplacements extérieurs imposés aux nœuds <br>
+Pas d'efforts réparti (poids propre négligé)
+:::
+:::{.column}
+<br>
+**... et leurs conséquences**
+
+$\rightarrow$
+Moments de flexion nuls aux nœuds
+<br>
+<br>
+
+$\rightarrow$
+Pas d'efforts tranchants dans les barres
+<br> &emsp;&emsp;
+[Équilibre des forces dans la section]{.muted .verysmaller}
+
+:::
+::::
+
+::::{.columns}
+:::{.column width=60%}
+#### Bilan
+
+Les barres sont soumises à deux forces [(aux nœuds)]{.muted} :
+<br>
+elles sont donc égales, de même direction et de sens opposé.
+
+**Les barres sont sollicitées en traction/compression.**
+:::
+:::{.column width=30%}
+![](figures/teaching_efforts_poutre.svg){width=100% fig-align=left}
+:::
+::::
+
+Pour une **sollicitation** donnée, la modélisation relie les caractéristiques **géométriques** et **matérielles** de la structure à son **état mécanique** (efforts normaux).
+
+<!--
+**Notes** <br>
+
+-> Poutre dimensionné avec la limite d'élasticité en traction et au flambage en compression (charge d'Euler).
+
+:::{.callout-note title="Tenségrité"}
+En remplaçant les barres en traction par des câbles, on obtient des structures de tenségrité, souvant très *design*.
+:::
+-->
+
+## Structures en treillis - Dimensionnement
+[En quoi consiste le dimensionnement d'une structure en treillis ?]{.muted}
+
+
+::::{.columns}
+:::{.column width=35%}
+
+#### Exemple
+
+![Pont en treillis ([Source: Wikimedia](https://commons.wikimedia.org/wiki/File:RRTrussBridgeSideView.jpg))](figures/teaching_pont.jpg){fig-align=center width=90%}
+
+
+![Modélisation d'une face du pont.](figures/teaching_exemple_dim_structure_treillis.svg){fig-align=center width=100%}
+:::
+
+:::{.column width=5%}
+:::
+
+:::{.column width=60%}
+#### Dimensionnement
+
+Le **dimensionnement des structures en treillis** consiste à choisir :
+
+- la géométrie du treillis,
+- les matériaux des barres,
+- la section des barres,
+
+en fonction de différentes **contraintes** telles que
+
+- garantir la tenue mécanique sous des solllicitations données,
+  <br> &emsp;
+  [*Ex: Supporter une charge maximale donnée pour un pont.*]{.muted .verysmaller}
+- limiter le volume de matière ou la masse de la structure,
+  <br> &emsp;
+  [*Ex : Optimiser le volume de matière d'un pylône (280k en France)*]{.muted .verysmaller}
+- obtenir une rigidité spécifique.
+  <br> &emsp;
+  [*Ex : Garantir une faible flèche pour une grue*]{.muted .verysmaller}
+:::
+::::
 
 # Recherche
 
@@ -542,11 +800,11 @@ R. Desmorat, C. Oliver-Leblond <br>
 $\to$ 76k steps
 
 
-![](figures/2023_thesis_discrete_simulation_1.jpg){width=4cm}
+![](figures/2023_thesis_discrete_simulation_1.jpg){width=3.5cm}
 
-![](figures/2023_thesis_discrete_simulation_2.jpg){width=4cm}
+![](figures/2023_thesis_discrete_simulation_2.jpg){width=3.5cm}
 
-![](figures/2023_thesis_discrete_simulation_3.jpg){width=4cm}
+![](figures/2023_thesis_discrete_simulation_3.jpg){width=3.5cm}
 
 :::
 
@@ -558,19 +816,17 @@ $\to$ 76k steps
 ![](figures/2023_thesis_elas_evolution.svg){width=100%}
 
 {{< fa magnifying-glass >}} Analysis of symmetry classes
-
 :::
 
 :::{.column width=33%}
 
 #### 3. Modelling
 
+
 a. Damage definition
-  $$\mathbf{D} = \mathbf{1} - \frac{1}{\kappa_0} \mathrm{tr}_{12} (\mathbf{E})$$
-
-b. Harmonic decomposition
-
-![](figures/2023_thesis_harmonic_decomposition.svg){width=100%}
+    $$\mathbf{D} = \mathbf{1} - \frac{1}{\kappa_0} \mathrm{tr}_{12} (\mathbf{E})$$
+b. Harmonic decomposition <br>
+    ![](figures/2023_thesis_harmonic_decomposition.svg){width=100% fig-align=center}
 
 :::
 ::::
@@ -605,10 +861,10 @@ V. Lazarus <br>
 ::::
 
 
-[**{{< fa wrench >}} Open-source codes for 2D crack propagation**]{.alert .large}
+[**{{< fa wrench >}} Open-source codes for anisotropic crack propagation in 2D**]{.alert .large}
 
 ::::{.columns}
-:::{.column width=40%}
+:::{.column width=42%}
 
 <br>
 
@@ -634,7 +890,7 @@ V. Lazarus <br>
 
 :::
 
-:::{.column width=60%}
+:::{.column width=58%}
 
 ![Fracture of a 3D-printed polycarbonate specimen. Experiments by @zhai_fdm-based_2025 at IMSIA.](figures/postdoc_gcrack_anisotropic_fracture.svg){width=100%}
 
@@ -758,7 +1014,6 @@ $\rightarrow$ Unbiased initial crack <br> &emsp;&nbsp; in phase-field fracture
 **Sparse analytical regressions**<br>
 [{{< fa user-friends >}} Safran Aircraft Engines (discussion for applications)]{.verysmaller .muted} <br>
 [&nbsp;{{< fa play >}}&nbsp; Applications : Fracture in rotating structures]{.verysmaller .muted} <br>
-&nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Modelling of 3D-printed Duplex steel]{.verysmaller .muted} <br>
 &nbsp;&nbsp;&nbsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; [Revisiting fracture mechanics handbooks]{.verysmaller .muted} <br>
 {{< fa bullseye >}} Finding a sparse analytical expression from data <br>
 [&emsp; Simplicity vs accuracy tradeoff]{.muted .verysmaller}
@@ -789,14 +1044,17 @@ $\rightarrow$ Unbiased initial crack <br> &emsp;&nbsp; in phase-field fracture
 :::::
 ::::::
 
-![](/figures/build/postdoc_optimisation_dissipation/specimen.png){width=70% fig-align=center}
+![](/figures/build/postdoc_optimisation_dissipation/specimen.png){width=64% fig-align=center}
 
 :::
 
 :::
 ::::
 
+<!-- 
 ## Encadrements
+
+**TODO** Changer en "Autres implications" (encadrements + science ouvertes + animation scientifique + reproductibilité + compétences numériques)
 
 ::::{.columns}
 
@@ -833,8 +1091,69 @@ $\rightarrow$ Unbiased initial crack <br> &emsp;&nbsp; in phase-field fracture
 
 ::::
 
+-->
+
+## Autres implications en recherche
+
+
+::::{.columns}
+
+:::{.column}
+
+#### Encadrement de stages
+
+2022 - A. Marlot - M1 ENS Paris-Saclay
+<br> &emsp;
+[Effect of crack distribution on the elasticity tensor]{.muted .verysmaller}
+
+2023 - L. Védrine - M2 ENS Paris-Saclay
+<br> &emsp;
+[Study of size effect in discrete simulation]{.muted .verysmaller}
+
+2024 - A. Ecotiere - 2A ENSTA
+<br> &emsp;
+[Phase-field simulations of fracture in 3D-printed steel]{.muted .verysmaller}
+
+2025 - Y. M. V. Epongue Djeugoue - 2A ENSTA
+<br> &emsp;
+[Crack propagation in mixed mode I+II in CCT specimen]{.muted .verysmaller}
+
+:::
+
+:::{.column}
+
+![Experiments by D. Roucou at IMSIA.](figures/postdoc_cct_expe_crack_path.png){width=89% fig-align=center}
+
+![gcrack simulation by Y. M. V. Epongue Djeugoue](figures/postdoc_cct_gcrack_propagation.mp4){fig-align=center autoplay=true loop=true width=100%}
+
+:::
+::::
+
+::::{.columns}
+:::{.column}
+#### {{< fa regular comments >}} Animation scientifique
+
+Organisation de séminaires
+
+- Réunion équipe COMMET (LMPS) &emsp;&emsp;{{< fa clock >}} 2 ans
+- Séminaire interne Pôle Mécanique &emsp; {{< fa clock >}} 1.5 ans <br> &emsp;
+    [Lancement, multi-laboratoire : IMSIA, LMI, LMS, LadHyX]{.muted .verysmaller}
+
+:::
+
+:::{.column}
+
+#### {{< fa lock-open >}} Sciences ouvertes
+
+- Publication codes/données avec chaque article
+- Publication dans JTCAM [@loiseau_how_2025]
+- Présentation sur site perso
+
+:::
+::::
 
 <!--
+**TODO** Changer en "Autres implications" (encadrements + science ouvertes + animation scientifique + reproductibilité + compétences numériques)
 Animation scientifique
 
 Autres
@@ -843,7 +1162,7 @@ Autres
 - Intérêt pour la science ouverte
 -->
 
-## Intégration en recherche {.scrollable}
+## Intégration en recherche
 [*Équipe MECALIPS du LaMCoS*]{.muted}
 <br>
 
@@ -862,13 +1181,13 @@ Modéliser et simuler les mécanismes physiopathologiques de maladies chroniques
 <br> &emsp;
 {{< fa arrow-right >}} Développer des modèles de comportements dédiés dans un cadre générique
 <br> &emsp; &emsp;
-[Cadre de modélisation macroscopique unifié basé sur la thermodynamique]{.muted .verysmaller}
+[Cadre de modélisation macroscopique modulaire basé sur la thermodynamique]{.muted .verysmaller}
 <br> &emsp; &emsp;
 [Modéles continus (classique ou *data-driven* interprétable) ou discrets à plusieurs échelles]{.muted .verysmaller}
 <br> &emsp; &emsp;
 [Couplages bio-chimio-mécaniques (dégradation, croissance, remodellage, etc.), anisotropie, hétérogénéités]{.muted .verysmaller}
 
-**Comment simuler les maladies étudiées et leur développement de manière robuste et personalisable ?**
+**Comment simuler les maladies étudiées et leur développement de manière robuste et personnalisable ?**
 <br> &emsp;
 {{< fa arrow-right >}} Développer des outils numériques s'appuyant sur le cadre de modélisation générique
 <br> &emsp; &emsp;
@@ -876,7 +1195,7 @@ Modéliser et simuler les mécanismes physiopathologiques de maladies chroniques
 <br> &emsp; &emsp;
 [Mise en données à partir des données médicales disponibles]{.muted .verysmaller}
 <br> &emsp; &emsp;
-[Vers des outils adaptés au milieu clinique (, etc.)]{.muted .verysmaller}
+[Vers des outils adaptés au milieu clinique (performances, etc.)]{.muted .verysmaller}
 
 #### {{< fa user-group >}} En collaboration
 
@@ -891,12 +1210,18 @@ Vers des méthodes numériques efficaces <br>&emsp; [Solveurs optimisés, réduc
 
 
 :::{.notes}
+
+Avant de commencer, j'aimerais revenir sur deux points.
+Le premier est bien sûr que je n'ai jamais fait de biomécanique, mais si je suis ici c'est parce que c'est un domaine qui m'intéresse particulièrement par ses enjeux applicatifs et les défis scientiques qu'il pose.
+Le second point est que j'ai adapté mon projet d'intégration par rapport au dossier pour prendre en compte que l'axe valcusculaire est arrêter.
+
+
 La physiopathologie est une discipline de la biologie qui traite des dérèglements de la physiologie, c’est-à-dire les dérèglements du mode de fonctionnement normal des éléments constitutifs du corps humain, d'un animal ou d'un végétal. La physiopathologie envisage à la fois les mécanismes physiques, cellulaires ou biochimiques qui conduisent à l'apparition d'une maladie et les conséquences de celle-ci. 
 
 #### {{< fa globe >}} Enjeux visés
 
 - Amélioration des méthodes de diagnostic et de l'évaluation des risques (TODO)
-- Développement et personalisation des traitements préventifs/thérapeutiques
+- Développement et personnalisation des traitements préventifs/thérapeutiques
 
 #### Création d'un outil de simulation
 
@@ -927,11 +1252,10 @@ L'**approche** employé consiste à <br>
 [{{< fa bullseye >}} **Objectif global <br> Modéliser et simuler les tissus biologiques**]{.large .alert .smallcaps}
 <br>
 
--->
 
 
 
-## Intégration dans l'équipe MECALIPS {.scrollable}
+## Intégration dans l'équipe MECALIPS
 
 #### NOTE : Pas d'experience en bio-mécanique
 
@@ -980,27 +1304,93 @@ Développer des cadres théoriques et outils numériques adaptables à différen
 :::
 ::::
 
-## Cadre global
+-->
 
-Approche variationnelle incrémentale (avec traitement des interfaces)
+## Cadre de modélisation et simulation
 
+::::{.columns}
+:::{.column width=82%}
+
+#### {{< fa crop-simple >}} Approche variationnelle incrémentale 
+<!-- cube cubes pen-to-square crop-simple expand -->
+
+L'état physique des tissus est décrit par la minimisation d'un potentiel énergetique
 $$
 \mathcal{P}(\boldsymbol{u}, ...) = 
 \mathcal{P}_{\Omega_1}(\boldsymbol{u}, ...) +
 \mathcal{P}_{\Omega_2}(\boldsymbol{u}, ...) + 
-\mathcal{P}_{\partial \Omega_{1+2}}(\boldsymbol{u}, ...)
+\mathcal{P}_{\partial \Omega_{1/2}}(\boldsymbol{u}, ...)
 $$
 
-#### Simulations patient-spécifique
+**Intérêts** : thermodynamique, cadre numérique modulaire, etc.
 
-Gestion du comportement par définition de potentiels (classique ou IA)
+:::
+:::{.column width=18%}
+![](figures/research_illustration_problem.svg){width=100%}
+:::
+::::
 
-Solver non-linéaire/minisation -> générique
+::::{.colomns}
+:::{.column}
+#### {{< fa magnifying-glass-chart >}} Modélisation [= formulation du potentiel]{.muted .verysmaller}
 
-Utilisation outils d'auto-diff pour simplifier la calibration.
+Collecte des données
+<br> &emsp;
+[Expériences (collab)]{.muted .verysmaller}
+<br> &emsp;
+[Approche multi-échelle]{.muted .verysmaller}
+
+Choix des variables d'état
+<br> &emsp;
+[Dépend des physiques et interactions à modéliser]{.muted .verysmaller}
+
+Formulation du potentiel
+<br> &emsp;
+[Continue (analytique, *data-driven* interprétable), discrète]{.muted .verysmaller}
+<br> &emsp;
+[Théorie des invariants (anisotropie)]{.muted .verysmaller}
+
+**Vers les couplages bio-chimio-mécaniques**
+
+<!--
+Exemples de modèles existants
+
+- Thermo-méca des MSG^[Matériaux Standads Généralisés] [@yang_variational_2006]
+- Thermo-poro-mécanique + Endommagement [@kamagate_incremental_2025]
+-->
+
+:::
+:::{.column}
+#### {{< fa circle-nodes >}} Simulation numérique [= minimisation du potentiel]{.muted .verysmaller}
+
+Minimisation
+<br> &emsp;
+[Solveur non-linéaire / optimisation]{.muted .verysmaller}
+<br> &emsp;
+[Appui sur outils *open-source* (FEniCSx)]{.muted .verysmaller}
+
+Simulations patient-spécifiques
+<br> &emsp;
+[Mise en données à partir de données médicales]{.muted .verysmaller}
+<br> &emsp;
+[Solution numérique différentiable (calibration/optimisation)]{.muted .verysmaller}
+
+Performances
+<br> &emsp;
+[Utilisation de bases réduites (collab réduction de modèle)]{.muted .verysmaller}
+
+**Vers des simulations efficaces et personnalisées**
+
+:::
+::::
+
+:::{.notes}
+Bases réduites $\rightarrow$ complexe avec phénomènes localisés.
+:::
 
 
-## Intégration dans l'axe bucco-dentaire {.scrollable}
+
+## Intégration dans l'axe bucco-dentaire
 
 :::{.large .alert}
 {{< fa bullseye >}} Prédire le risque de lésion dentaire / rupture d'implant
@@ -1015,25 +1405,25 @@ Utilisation outils d'auto-diff pour simplifier la calibration.
 :::{.column width=5%}
 :::
 :::{.column width=65%}
-#### Contributions
+#### Démarche
 
-1. Simulation du contact dentaire <br>
-    [&nbsp;&nbsp; Contact approché : Third Medium Contact [@wriggers_finite_2013].]{.muted} <br>
-    [&nbsp;&nbsp; Vers l'adaptation : morphologie, implant, etc.]{.muted} <br>
-2. Modélisation du comportement des tissus dentaires et implants <br>
-    [&nbsp;&nbsp; Anisotropie, endommagement (méca/chimique), usure, etc.]{.muted} <br>
-    [&nbsp;&nbsp; Approche multi-échelle basée sur des modèles discrets]{.muted} <br>
+1. Modélisation du contact <br>
+    [&nbsp;&nbsp; Contact approché : Third Medium Contact [@wriggers_finite_2013].]{.muted .verysmaller} <br>
+1. Modélisation du comportement des tissus dentaires et implants <br>
+    [&nbsp;&nbsp; Approche multi-échelle par modèles discrets (émail)]{.muted .verysmaller} <br>
+    [&nbsp;&nbsp; Anisotropie, endommagement (méca/chimique), usure, etc.]{.muted .verysmaller} <br>
+3. Simulation du contact dentaire <br>
+    [&nbsp;&nbsp; Vers l'adaptation : morphologie, implant, etc.]{.muted .verysmaller} <br>
 
-#### Example d'application
+#### Exemple d'application
 
-- Initiation/Propagation d'une fissure dentaire [(monotone/cyclique)]{.muted .verysmaller}<br>
-    [&emsp; Prise en compte de défauts morphologiques / malocclusion <br>]{.muted}
-    [&emsp; Modélisation de l'érosion dentaire]{.muted}
+- Simulation de la fissuration dentaire [(monotone/cyclique)]{.muted .verysmaller}<br>
+    [&emsp; Initiation/Propagation de fissure <br>]{.muted .verysmaller}
+    [&emsp; Prise en compte de défauts morphologiques / malocclusion <br>]{.muted .verysmaller}
 
 #### Extensions
 
-- Cicatrisation et remodellage osseux autour d'un implant
-- Vers une modélisation complète de la machoire, puis du crâne
+Érosion dentaire, Cicatrisation et remodellage osseux (implant), Modélisation complète de la machoire/crâne
 
 
 <!--
@@ -1077,7 +1467,7 @@ Which cracks are susceptible of crack propagation (and further problem) : stabil
 
 
 
-## Intégration dans l'axe articulaire {.scrollable}
+## Intégration dans l'axe articulaire
 
 :::{.large .alert}
 {{< fa bullseye >}} Prédure l'usure d'une prothèse de hanche et son influence sur son environnement
@@ -1092,24 +1482,27 @@ Which cracks are susceptible of crack propagation (and further problem) : stabil
 :::{.column width=5%}
 :::
 :::{.column width=65%}
-#### Contributions
+#### Démarche
 
-1. Modélisation et simulation macroscropique de l'usure des prothèses <br>
-    [&emsp; Chimio-mécanique (transport phospholipides $\rightarrow$ lubrification)]{.muted} <br>
-    [&emsp; Emission de particules d'usure (*e.g.*, loi de Archard + $r$-adaptation)]{.muted} <br>
-    [&emsp; Endommagement/Rutpure]{.muted}
+1. Modélisation macroscopique de l'usure des prothèses
+    <br> &emsp;
+    [ Modélisation discrète discrète de l'interface de contact]{.muted .verysmaller}
+    <br> &emsp; 
+    [Modèle macroscopique de l'usure (*e.g.*, loi de Archard + $r$-adaptation)]{.muted .verysmaller}
+    <br> &emsp; 
+    [Effet des phospholipides sur le contact et l'usure]{.muted .verysmaller}
 
 2. Transport (et réactions ?) des particules $\rightarrow$ interface et tissus proches
+    <br> &emsp;
+    [Élements discrets pour modéliser l'usure et le transport]{.muted .verysmaller}
 
-#### Example d'application
 
-Validation d'implants sur mesure <br>
-[&emsp; Évaluation de la tolérance aux défauts de l'implant (fissures)]{.muted} <br>
-[&emsp; Prévision des risques liés à l'usure]{.muted}
+#### Exemple d'application
 
-#### Extensions (TODO)
-
-- 
+- Compréhension et évaluation des risques risques liés à l'usure
+- Validation d'implants personnalisés
+    <br> &emsp;
+    [Évaluation de la tolérance aux défauts de l'implant (fissures)]{.muted .verysmaller}
 
 :::
 ::::
@@ -1172,7 +1565,28 @@ Culture de neuroblastome + lipide/pollution -> changement des propriétés biolo
 
 -->
 
-## Projet spécifique : En pratique
+## Projet spécifique : Démarche
+
+<br>
+
+![](figures/research_timeline.svg){fig-align=center height=12cm}
+
+<!--
+
+{{< fa road-barrier >}} Limitations: Modèles non-standards =S
+
+Démarche:
+
+- 1A:
+    - Prise en main des thématiques de l'équipe (réunions, discussions, etc.)
+    - Mise en place de projets détaillés
+    - Développements théoriques et numériques préliminaires
+    - Préparation d'un projet de recherche (ANR JCJC, financement stage)
+    - Encadrement stage M2 en fin de 1ère année
+- 2A:
+    - Co-encadrement d'un thèse, postdoc
+- 3A:
+    - Co-encadrement d'un thèse, postdoc
 
 ::::{.columns}
 :::{.column width=65%}
@@ -1219,6 +1633,7 @@ Simulation de procédés de fabrication
 
 ::::
 
+-->
 
 ## Synthèse
 
@@ -1235,8 +1650,11 @@ Simulation de procédés de fabrication
 :::
 
 :::{.column #vcenter width=40%}
-🎓 **FIMI** <br>
 🎓 **Génie Mécanique** <br>
+Mécanique des solides déformables <br>
+Méthodes numériques pour la mécanique <br>
+Projets
+
 
 :::
 ::::
@@ -1245,7 +1663,7 @@ Simulation de procédés de fabrication
 
 ::::{.columns}
 :::{.column width=60% #vcenter}
-[Modèles de comportement]{.example} et [outils numériques]{.example} prédictifs <br> pour la simulation du contact entre solides déformables <br> sous sollicitations extrêmes.
+[Modèles]{.example} et [outils numériques]{.example} pour la simulation prédictive <br>  des tissus biologiques et implants <br> sous sollicitations bio-chimio-mécaniques.
 :::
 
 :::{.column width=40% #vcenter}
